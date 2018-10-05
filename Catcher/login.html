@@ -8,21 +8,26 @@
     <link type= "text/css" rel= "stylesheet" href="style/login.css"/>
     <script src="http://d3js.org/d3.v3.min.js"></script>
 </head>
+<body>
     <div class = "loginheader">
         <header>
             <div class = "formbox"> 
                     <form>
-                        <table>
-                            <tr>
-                                    <strong><p>USERNAME</p></strong>
-                                    <input type = "text" name = "" placeholder= "">
-                                    <strong><p>PASSWORD</p></strong>
-                                    <input type = "Password" name = "" placeholder= "">
-                                    <button class="btn default">Sign In</button>
-                                    <div><strong><a href = "#"> New User?</a></strong></div>
-                                    <strong><a href = "#"> Forgot Password?</a></strong>
-                            </tr>        
-                        </table>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <strong><p class="logs">USERNAME</p></strong>
+                                <input type = "text" name = "" placeholder= "" margin = auto>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">           
+                                <strong><p class="logs">PASSWORD</p></strong>
+                                <input type = "Password" name = "" placeholder= "">
+                            </div>       
+                        </div>
+                        <button class="btn default">Sign In</button>
+                        <div><strong><a href = "#"> New User?</a></strong></div>
+                        <strong><a href = "#"> Forgot Password?</a></strong>
                     </form>
             </div>        
         </header>
@@ -44,5 +49,4 @@
                 <em>R</em>
             </h1>
     </div>        
-</body>
-</html>    
+</body>  
