@@ -1,5 +1,5 @@
 html {
-  margin: 0;
+  /* margin: 0; */
   height: 100%;
 }
 
@@ -9,22 +9,24 @@ html {
   z-index: 1;
   position: absolute;
   font-weight: 900;
-	left: 45%; top: 60%;
-	margin-left: -5px; margin-top: -5px;
+  /* left: 45%;  */
+  top: 60%;
+  /* margin-left: -5px; 
+  margin-top: -5px; */
 }
 
 /* Sign in button */
 .btn {
   border: none;
   background-color: inherit;
-  padding: 14px 28px;
+  padding: 7px 7px;
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
 }
 /* On mouse-over */
-.btn:hover {background: rgb(23, 111, 151);}
-.default {color: black;}
+.btn:hover {background: rgb(73, 121, 143);}
+/* .default {color: black;} */
 
 /* New User? Forgot Passwords? */
 a {
@@ -34,7 +36,7 @@ a {
 
 /* HTML body */
 body {
-  margin: 0;
+  /* margin: 0; */
   height: 100%;
   overflow: hidden;
   display: flex;
@@ -201,7 +203,7 @@ em {
   font-family: 'Josefin Sans', sans-serif;
   color: currentColor;
   font-size: 15vmin;
-  position: relative;
+  /* position: relative; */
   font-style: normal;
   width: 20vmin;
   text-align: center;
@@ -210,7 +212,7 @@ em {
 em.planet {
   -webkit-animation: planet-rotate 4s linear infinite;
   animation: planet-rotate 30s linear infinite;
-  position: relative;
+  /* position: relative; */
 }
 
 em.planet::before {
@@ -245,4 +247,9 @@ em.planet.right {
   to {
     transform: rotate(1turn);
   }
+}
+
+.logs{
+  margin-top: 3px;
+  margin-bottom: 0px;
 }
